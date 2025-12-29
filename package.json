@@ -1,0 +1,16 @@
+{
+  "name": "079-delivery",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "api",
+    "admin",
+    "mobile"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w api",
+    "dev:api": "npm run dev -w api",
+    "dev:admin": "npm run dev -w admin",
+    "dev:mobile": "npm run start -w mobile"
+  }
+}
